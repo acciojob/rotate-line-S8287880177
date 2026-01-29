@@ -1,10 +1,12 @@
 /*  your css code here. If applicable */
 #line {
+  background-color: #000000;
   width: 200px;
   height: 2px;
-  background-color: #000000;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform-origin: center;
+  margin-left: -100px; /* center horizontally (half of width) */
+  margin-top: -1px;    /* center vertically (half of height) */
 }
+
